@@ -5,7 +5,7 @@ const Routes = require('./src/routes/routes');
 class App {
     static main() {
         const app = express();
-        const PORT = 8000;
+        const PORT = 80;
 
         app.set('views', __dirname + '/src/views');
         app.set('view engine', 'njk')
