@@ -1,0 +1,9 @@
+{% extends 'base.njk' %}
+{% set head_title = 'Pokenea' %}
+{% block content %}
+    <h1>Pokeneas mor</h1>
+    <img src="{{ viewData.image }}" alt="Pokenea Image" width="300" height="300"/>
+    <p>{{ viewData.quote }}</p>
+    <p><{{ viewData.hostname }}</p>
+
+{% endblock %}
